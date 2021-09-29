@@ -20,7 +20,7 @@ namespace OSEmulator.Views {
     public partial class AuthenticationUIView : UserControl {
         public AuthenticationUIView() {
             InitializeComponent();
-            DataContext = new ViewModel.MainWindow();
+            DataContext = ViewModel.MainWindow.Ref;
         }
     }
 }

@@ -7,7 +7,6 @@ using System.Windows.Input;
 
 namespace OSEmulator.ViewModel {
     public class AuthenticationUI : BaseViewModel {
-        public AuthenticationUI() { }
         public AuthenticationUI(MainWindow mainWindow) {
             LoginConfirm = new Commands.LoginConfirmCommand(mainWindow);
         }
