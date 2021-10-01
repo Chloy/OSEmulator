@@ -2,19 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:OSEmulator"
-             xmlns:views="clr-namespace:OSEmulator.Views"
-             xmlns:viewmodels="clr-namespace:OSEmulator.ViewModel"
-             StartupUri="Views/MainWindow.xaml">
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <DataTemplate DataType="{x:Type viewmodels:AuthenticationUI}">
-            <views:AuthenticationUIView/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewmodels:AdministratorUI}">
-            <views:AdministratorUIView/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewmodels:CommonUserUI}">
-            <views:CommodUserUIView/>
-        </DataTemplate>
-        
+
     </Application.Resources>
 </Application>
